@@ -3,6 +3,7 @@ import Icon from '../Icons/Icon';
 import * as styles from './Accordion.module.css';
 
 const Accordion = (props) => {
+  asdfasdf
   const { title, type = 'caret', customStyle, children } = props;
 
   const [open, setOpen] = useState(false);
@@ -26,7 +27,7 @@ const Accordion = (props) => {
         <span
           className={`${combinedStyling.accordionTitle} ${combinedStyling.uppercase}`}
         >
-          {title}
+          {title}asdfdsaf
         </span>
         <div
           className={`${combinedStyling.iconContainer} ${
